@@ -1,0 +1,95 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+.body_main {
+  background-image: url(https://sarahoggatt.neocities.org/images/frame0001.gif);
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+.body_scicomm {
+  background-color: #f5f1e9;
+  color: black;
+  font-family: Verdana;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: white;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 300px;
+  height: 74px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: relative;
+  width: 600px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  object-fit: contain;
+}
+
+.vbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.welcome_header {
+    position: relative;
+    right: 37%;
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  width: 40%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: stretch;
+  order: 0;
+}
