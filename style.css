@@ -23,6 +23,7 @@
   margin: 0px;
   display: flex;
   justify-content: space-between;
+  opacity: 70%;
 }
 
 .hbox {
