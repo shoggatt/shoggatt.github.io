@@ -3,15 +3,15 @@
    "how to change link color." */
 
 .body_main {
-  background-image: url(https://sarahoggatt.neocities.org/images/frame0001.gif);
+  background-image: url(/images/frame0001.gif);
   background-color: white;
   color: black;
   font-family: Verdana;
 }
 
 .body_scicomm {
-  background-color: #f5f1e9;
-  color: black;
+  background-color: #05182C;
+  color: rgb(255,255,255);
   font-family: Verdana;
 }
 
@@ -73,6 +73,8 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
+  border: 50px;
+  padding: 50px;
 }
 
 .flex-items:nth-child(1) {
@@ -83,6 +85,9 @@
   flex-basis: auto;
   align-self: auto;
   order: 0;
+  margin: 50px;
+  border: 50px;
+  padding: 50px;
 }
 
 .flex-items:nth-child(2) {
@@ -92,4 +97,8 @@
   flex-basis: auto;
   align-self: stretch;
   order: 0;
+  margin: 50px;
+  border: 50px;
+  padding: 50px;
 }
+
